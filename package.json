@@ -1,18 +1,29 @@
 {
   "name": "gatsby-source-pocketbase",
   "version": "1.0.0",
+  "author": "loliallen",
+  "license": "MIT",
+  "dependencies": {
+    "pocketbase": "^0.10.1"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc"
   },
-  "author": "loliallen",
-  "license": "ISC",
-  "dependencies": {
-    "pocketbase": "^0.10.1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loliallen/gatsby-source-pocketbase.git"
   },
-  "devDependencies": {
-    "ts-node": "^10.9.1",
-    "typescript": "^4.9.5"
+  "bugs": {
+    "url": "https://github.com/loliallen/gatsby-source-pocketbase/issues"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "pocketbase"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
